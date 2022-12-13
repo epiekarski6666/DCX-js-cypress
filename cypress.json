@@ -1,0 +1,14 @@
+{
+    "baseUrl": "https://paragon-dcx.com/",
+    "includeShadowDom": true,
+    "chromeWebSecurity": true,
+    "viewportHeight": 1080,
+    "viewportWidth": 1920,
+    "video": false,
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/report",
+        "charts": true,
+        "reportPageTitle": "Reports"
+    }
+}
